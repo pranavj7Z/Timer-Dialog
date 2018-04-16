@@ -1,5 +1,7 @@
 apply plugin: 'com.android.library'
-group='com.github.andyxialm'
+group='com.github.pranavj7Z'
+
+
 
 android {
     compileSdkVersion 26
@@ -24,6 +26,7 @@ allprojects {
         google()
     }
 }
+
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
