@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void showTextDialog(View view) {
         TimerDialog dialog = new TimerDialog(this);
-        dialog.setColor("#8ECB54");
+        dialog.setColor("#FF0000");
         dialog.setAnimationEnable(true);
         dialog.setTitle(getString(R.string.operation));
         dialog.setDuration(10000);
@@ -57,18 +57,16 @@ public class MainActivity extends AppCompatActivity {
     }
     public void showAllModeDialog(View view) {
         TimerDialog dialog = new TimerDialog(this);
-        dialog.setTitle(getString(R.string.operation));
+        dialog.setTitle("Rewarded Video");
         dialog.setAnimationEnable(true);
         dialog.setDuration(10000);
-        dialog.setContentText(getString(R.string.content_text));
-        dialog.setContentImage(getResources().getDrawable(R.mipmap.sample_img));
-        dialog.setPositiveListener(getString(R.string.delete), new TimerDialog.OnPositiveListener() {
+        dialog.setPositiveListener("watch video", new TimerDialog.OnPositiveListener() {
             @Override
             public void onClick(TimerDialog dialog) {
                 Toast.makeText(MainActivity.this, dialog.getPositiveText().toString(), Toast.LENGTH_SHORT).show();
             }
         })
-        .setNegativeListener(getString(R.string.cancel), new TimerDialog.OnNegativeListener() {
+        .setNegativeListener("No thanks", new TimerDialog.OnNegativeListener() {
             @Override
             public void onClick(TimerDialog dialog) {
                 Toast.makeText(MainActivity.this, dialog.getNegativeText().toString(), Toast.LENGTH_SHORT).show();

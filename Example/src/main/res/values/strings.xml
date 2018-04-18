@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ColorDialog</string>
+    <string name="app_name">TimerDialog</string>
     <string name="operation">Operation</string>
     <string name="content_text">This is content message.</string>
     <string name="delete">Delete</string>
