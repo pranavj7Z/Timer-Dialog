@@ -3,6 +3,4 @@ Android Library that provides you a dialog box with an integrated timer along wi
 
 ### Screenshots:
 
-* PromptDialog Success
-
-![](https://github.com/pranavj7Z/TimerDialog/blob/master/art/p.png?raw=true )
+![](https://github.com/pranavj7Z/TimerDialog/blob/master/p.png?raw=true )
