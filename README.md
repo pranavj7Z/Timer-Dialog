@@ -1,5 +1,5 @@
 # Timer-Dialog  [![](https://jitpack.io/v/pranavj7Z/Timer-Dialog.svg)](https://jitpack.io/#pranavj7Z/Timer-Dialog)
-Android Library that provides you a dialog box with an integrated timer along with a circular progress indicator.
+Android Library that provides you a dialog box with an integrated timer along with a circular progress indicator.</br>
 The circular progress bar indicates the countdown.
 
 ### Screenshots:
