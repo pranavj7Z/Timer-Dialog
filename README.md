@@ -22,9 +22,10 @@ allprojects {
 
 ##### Step 2. Add the dependency
 ~~~ xml
-dependencies {
-	        compile 'com.github.pranavj7Z:Timer-Dialog:1.04'
-}
+dependencies 
+   {	      
+       compile 'com.github.pranavj7Z:Timer-Dialog:1.04'
+   }
 ~~~
 
 #### Maven
