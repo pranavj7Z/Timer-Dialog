@@ -30,6 +30,18 @@
             android:textColor="@android:color/white"
             android:textSize="16sp" />
 
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:textColor="@android:color/white"
+            android:visibility="visible" />
+
         <LinearLayout
             android:id="@+id/llContent"
             android:layout_width="match_parent"
@@ -80,17 +92,6 @@
                     app:maximum="100"
                    />
 
-                <TextView
-                    android:id="@+id/tvContent"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="left"
-                    android:paddingBottom="10dp"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:paddingTop="5dp"
-                    android:textColor="@android:color/white"
-                    android:visibility="visible" />
 
             </FrameLayout>
 

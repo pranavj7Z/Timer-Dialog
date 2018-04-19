@@ -13,10 +13,13 @@ import android.os.CountDownTimer;
 import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.View;
+import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.AnimationSet;
+import android.view.animation.ScaleAnimation;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.pranavj7.TimerDialog.util.ProgressBar;
@@ -105,6 +108,7 @@ private ProgressBar cd;
         cd.setAnimateProgress(true);
         cd.setMaximum(100);
         cd.setProgress(0);
+
         //cd.setProgress(0);
 // you can set max and current progress values individually
         //cd.setMaxProgress(10000);
@@ -153,7 +157,6 @@ private ProgressBar cd;
     }
 
     private int mDuration;
-
 
     @Override
     protected void onStart() {
@@ -240,7 +243,7 @@ private ProgressBar cd;
         boolean isTextMode = (!TextUtils.isEmpty(mContentText));
 
         if (isImageMode && isTextMode) {
-            FrameLayout.LayoutParams params = (FrameLayout.LayoutParams) mContentTv.getLayoutParams();
+            LinearLayout.LayoutParams params = (LinearLayout.LayoutParams) mContentTv.getLayoutParams();
             params.gravity = Gravity.BOTTOM;
             mContentTv.setLayoutParams(params);
             mContentTv.setBackgroundColor(Color.BLACK);
@@ -251,7 +254,7 @@ private ProgressBar cd;
         }
 
         if (isTextMode) {
-            FrameLayout.LayoutParams params = (FrameLayout.LayoutParams) mContentTv.getLayoutParams();
+            LinearLayout.LayoutParams params = (LinearLayout.LayoutParams) mContentTv.getLayoutParams();
             params.gravity = Gravity.NO_GRAVITY;
             mContentTv.setLayoutParams(params);
             mContentIv.setVisibility(View.GONE);
