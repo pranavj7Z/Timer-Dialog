@@ -4,3 +4,4 @@ Android Library that provides you a dialog box with an integrated timer along wi
 ### Screenshots:
 
 ![](https://github.com/pranavj7Z/Timer-Dialog/blob/master/p.png?raw=true )
+![](https://github.com/pranavj7Z/Timer-Dialog/blob/master/j.png?raw=true )
